@@ -1,0 +1,47 @@
+body * {
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.container {
+	margin-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+
+.box {
+	border: 1px solid black;
+	display: inline-block;
+}
+
+.upper-left {
+	background-color: green;
+	width: 50%;
+	height: 200px;
+}
+
+.upper-right {
+	background-color: blue;
+	width: 50%;
+	height: 200px;
+}
+
+.lower-left {
+	background-color: gray;
+	width: 33.33%;
+	height: 300px;
+}
+
+.lower-center {
+	background-color: black;
+	width: 33.33%;
+	height: 300px;
+}
+
+.lower-right {
+	background-color: orange;
+	width: 33.33%;
+	height: 300px;
+}
